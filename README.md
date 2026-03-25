@@ -4,14 +4,14 @@ Technical Artist working at the intersection of real-time rendering, virtual pro
 
 I build tools and pipelines that close the gap between creative vision and what the hardware can actually do — on LED volumes, in AR, and across XR workflows.
 
-Currently pursuing an MA in Interactive Design & Game Development at SCAD.
+Currently pursuing an MA in Interactive Design & Game Development at SCAD, will gradute at summer 2026.
 
 ---
 
 ## What I work on
 
 **Virtual Production**
-LED volume workflows in Unreal Engine 5 — environment systems, material pipelines, real-time lighting and color for on-set production.
+LED volume workflows in Unreal Engine 5, look development, material systems, real-time lighting and color for on-set production.
 
 **Point Cloud & 3DGS Pipelines**
 Converting spatial capture data (Gaussian Splatting, PLY, HDRI) into real-time-ready formats for UE5 and USD. Tools in this repo are things I built because they didn't exist yet.
@@ -35,10 +35,10 @@ Custom shaders and procedural VFX for mobile AR on iOS, optimized for real-time 
 
 ## Stack
 
-**Real-Time** — Unreal Engine 5, Unity, Niagara, PCG
-**3D / FX** — Houdini, Blender, Substance Designer / Painter, Maya
-**Code** — Python, HLSL, C#
-**Spatial** — Reality Composer Pro, ARKit, Gaussian Splatting, OpenUSD
+**Real-Time** — Unreal Engine 5, Unity, Niagara, PCG.
+**3D / FX** — Houdini, Blender, Substance Designer / Painter, Maya.
+**Code** — Python, HLSL, C#.
+**Spatial** — Reality Composer Pro, ARKit, Gaussian Splatting, OpenUSD.
 
 ---
 
