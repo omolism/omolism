@@ -1,45 +1,53 @@
 # Hi, I'm Danci 👾
 
-Technical Artist working at the intersection of real-time rendering, virtual production, and spatial computing.
+Creative technologist working across real-time rendering, generative 3D, and graphics engineering.
 
-I build tools and pipelines that close the gap between creative vision and what the hardware can actually do — on LED volumes, in AR, and across XR workflows.
+I build the tools and pipelines that close the gap between a creative idea and what the hardware can actually do. Most of what's in here exists because I needed it and it didn't.
 
-Currently pursuing an MA in Interactive Design & Game Development at SCAD, will gradute at summer 2026.
+**Recently** · Published *From Viewing to Playing: Bring-Your-Own-Scene Interaction for 3D Gaussian Splatting on the Web* at **ACM Web3D 2026**, presented at **SIGGRAPH 2026**, and demoed the browser 3DGS pipeline on **NVIDIA's Omniverse live stream**.
 
 ---
 
 ## What I work on
 
-**Virtual Production**
-LED volume workflows in Unreal Engine 5, look development, material systems, real-time lighting and color for on-set production.
+**Generative 3D & Gaussian Splatting**
+Getting 3DGS and 4DGS out of research and into things people can actually use: browsers, game engines, production pipelines. Voxelizing world-model output into runtime-ready USD, hand-tracked splat scenes on the web.
 
-**Point Cloud & 3DGS Pipelines**
-Converting spatial capture data (Gaussian Splatting, PLY, HDRI) into real-time-ready formats for UE5 and USD. Tools in this repo are things I built because they didn't exist yet.
+**Real-Time Rendering**
+Shaders in HLSL, GLSL, and MSL. Render passes, post-processing, GPU budgets. Unreal and Unity, plus Three.js and WebGPU on the web.
 
-**AR / Spatial Content**
-Custom shaders and procedural VFX for mobile AR on iOS, optimized for real-time constraints.
+**Pipeline & Tooling**
+Python for Maya, Blender, Houdini, and Unreal. Format conversion, asset automation, editor extensions. Most of the repos below are this.
+
+**AR & Spatial**
+Custom shaders and procedural VFX for mobile AR on iOS, tuned to real-time constraints.
 
 ---
 
-## Tools & Repos
+## Projects & Tools
 
 | Repo | What it does |
 |------|-------------|
+| [PlaySplat](https://github.com/omolism/PlaySplat) | Bring-your-own-scene 3DGS in the browser with MediaPipe hand tracking. Published at ACM Web3D 2026. [playsplats.com](https://playsplats.com) |
+| [SplatGarden](https://github.com/omolism/SplatGarden) | Three.js and WebGL viewer for Gaussian Splat scenes. Custom GLSL passes, WebGPU compute, OpenUSD scene layers |
+| [3dgs-voxelizer-Omni](https://github.com/omolism/3dgs-voxelizer-Omni) | Turns 3DGS scans into colored voxel blocks inside NVIDIA Omniverse. USD PointInstancer for GPU instancing, holds 90+ FPS |
 | [3DGS-to-Voxel-OpenUSD](https://github.com/omolism/3DGS-to-Voxel-OpenUSD) | Converts 3D Gaussian Splats or PLY point clouds into stylized voxel meshes, exported as USD |
 | [sharp-to-xyz](https://github.com/omolism/sharp-to-xyz) | Converts Apple SHARP .PLY captures to .XYZ with RGB, importable in UE5 |
 | [xyz-to-niagara](https://github.com/omolism/xyz-to-niagara) | Packs XYZ point cloud data into texture format for Niagara particle systems |
 | [HDRI-TO-3DGS](https://github.com/omolism/HDRI-TO-3DGS) | Generates 3DGS environments from HDRI input |
-| [Blender-to-Unity-kit](https://github.com/omolism/Blender-to-Unity-kit) | Automates material and texture setup on Blender → Unity export |
+| [Blender-to-Unity-kit](https://github.com/omolism/Blender-to-Unity-kit) | Automates material and texture setup on Blender to Unity export |
 
 ---
 
 ## Stack
 
-**Real-Time** — Unreal Engine 5, Unity, Niagara, PCG.
-**3D / FX** — Houdini, Blender, Substance Designer / Painter, Maya.
-**Code** — Python, HLSL, C#.
-**Spatial** — Reality Composer Pro, ARKit, Gaussian Splatting, OpenUSD.
+**Real-time** · Unreal Engine (Niagara, Lumen, Substrate), Unity (URP, Shader Graph, VFX Graph)
+**Web 3D** · Three.js, WebGL, WebGPU
+**Shaders** · HLSL, GLSL, MSL, Houdini VEX
+**3D / FX** · Houdini, Blender, Maya, Substance Designer / Painter
+**Spatial** · OpenUSD, Omniverse, Gaussian Splatting, ARKit, Reality Composer Pro
+**Code** · Python, C#, JavaScript, C++
 
 ---
 
-[Portfolio](https://omolism.cargo.site) · [LinkedIn](https://www.linkedin.com/in/dancishen) · dancishen@gmail.com
+[Portfolio](https://omolism.cargo.site) · [PlaySplat](https://playsplats.com) · [LinkedIn](https://www.linkedin.com/in/dancishen) · dancishen@gmail.com
